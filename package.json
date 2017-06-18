@@ -1,0 +1,24 @@
+{
+  "name": "redditapi",
+  "version": "0.0.1",
+  "description": "this project is to learn more about rest but with modern code",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server/index.js --exec babel-node --presets es2015,stage-2"
+  },
+  "dependencies": {
+    "express": "latest"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "mongoose": "^4.10.6"
+  },
+  "presets": [
+    "es2015",
+    "stage-2"
+  ]
+}
