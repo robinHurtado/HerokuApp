@@ -2,5 +2,5 @@ import app from "./app";
 
 app.listen(7000, (res, err) => {
 			if (err) console.log(err)
-			else console.log("Success")
+			else console.log("Success, port:7000")
 		})
